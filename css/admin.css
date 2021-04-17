@@ -1,0 +1,96 @@
+/* 
+Author : Khalid rahim;
+theme : Food order Website Admin;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    font-size: 74px;
+    color: #ff4757;
+}
+
+.wrapper {
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100% !important;
+
+}
+
+table tr th {
+    border-bottom: 1px solid black !important;
+    padding: 1% !important;
+    text-align: left !important;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.btn-primary {
+    background: #1e90ff;
+}
+
+/* css for menu */
+.menu {
+    text-align: center;
+    border-bottom: 6px solid black;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover {
+    color: #ff4757;
+}
+
+/* css for main content */
+.main-content {
+
+    background: #f1f2f6;
+    padding: 4% 0;
+}
+
+.col-4 {
+    width: 20%;
+    background: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* css for footer  */
+.footer {
+    background: #ff4757;
+    color: white;
+}
